@@ -1,9 +1,10 @@
 
+# Firebase service account key — NEVER commit this
 **/serviceAccountKey.json
 serviceAccountKey.json
 
 node_modules/
-
+# Any other secret/credential files
 *.json
 !package.json
 !package-lock.json
