@@ -1,0 +1,19 @@
+# Virtual Supervisor — Launcher Requirements
+# Install with: pip install -r requirements_launcher.txt
+
+# Core launcher
+flask>=3.0.0
+flask-cors>=4.0.0
+pywebview>=4.4.0
+
+# Detection engine (already needed for phase files)
+ultralytics>=8.0.0
+opencv-python>=4.8.0
+numpy>=1.26.0
+
+# Firebase backend
+firebase-admin>=6.4.0
+python-dotenv>=1.0.0
+
+# Optional: package as .exe
+# pyinstaller>=6.0.0
